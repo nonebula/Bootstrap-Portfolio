@@ -51,6 +51,7 @@ header {
   max-width: 500px;
   font-size: 24px;
 }
+
 .myhero {
   background-color: var(--nav-text-color) !important;
   height: 400px;
@@ -65,6 +66,9 @@ header {
 }
 
 /* Heading Styles */
+
+/* potentially inline display to extend onto one line? */
+
 h1 {
   padding: 10px;
   color: var(--name-color);
@@ -123,33 +127,25 @@ p {
   text-align: justify;
 }
 
-/* formatting center in page */
-/* .container-fluid {
-  margin: 35px auto;
-  background-color: #f2f2f2;
-  padding: 25px;
-  border-radius: 7px;
-  width: 50%;
-} */
-
 /* About Me */
 
 .about {
 }
 
+/* Button formatting (color change) */
+
 /* Skills */
 
 /* Projects */
 
-
 /* Contact Me */
-
-.contact-item {
+/* background color needs setting, header & border color change, icon color */
+.contactItem {
   padding: 10px;
   margin: 10px;
   font-size: 20px;
   word-spacing: 1.5px;
-  width: 100%%;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -157,24 +153,80 @@ p {
   padding-top: 50px;
 }
 
-.contact-item a {
+.contactItem a {
   text-decoration: none;
   color: var(--nav-text-color);
   transition: color 0.5s;
 }
 
-.contact-item a:hover {
+.contactItem a:hover {
   color: var(--link-color);
 }
 
 /* Footer Section */
+
+/* Other links need to format similar to download resume link */
+
 footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
+    background-color: var(--primary-heading-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer a {
+  color: var(--nav-text-color);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer p {
+  color: var(--nav-text-color); 
+}
+
+
+/* align-items: center;
+justify-content: center;
+display: inline; */
+
+/* footer { */
+  /* position: absolute; */
+  /* width: 100%;
+  height: 150px;
   line-height: 60px;
   background-color: var(--primary-heading-color);
+  list-style: none;
+  padding: 20px;
+  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  display: flex;
 }
+
+.contactItem ul {
+  display: flex;
+  list-style: none;
+  font-size: var(--nav-bar-font-size);
+}
+
+.footList {
+} */
+
+/* .footList ul {
+  display: flex;
+  list-style: none;
+  font-size: var(--nav-bar-font-size);
+}
+
+.footList a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+  transition: color 0.5s;
+}
+
+.footList a:hover {
+  color: var(--link-color);
+} */
 
 /* * = universal selector */
 /* floated right
