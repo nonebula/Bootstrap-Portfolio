@@ -31,8 +31,31 @@ header {
   align-items: center;
 }
 
+.navbar-brand {
+  image
+}
+
 .fs-4 {
   color: var(--base-color);
+}
+
+/* Jumbotron */
+.myjumbo {
+  width: 70%;
+  min-width: 500px;
+  max-width: 500px;
+  color: white;
+  text-align: center;
+}
+.myhero {
+  background-image: url(../Images/jumbobg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Heading Styles */
@@ -75,6 +98,28 @@ h5 {
   border-right: 3px solid var(--base-color);
   margin-right: 10px;
 }
+
+/* Main Body Text Formatting */
+body {
+  background-color: var(--base-color);
+  color: var(--primary-text-color);
+  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  padding: 10px;
+  padding-top: 30px;
+  margin: 10px;
+  word-spacing: 1.5px;
+  text-align: justify;
+}
+
+.skills {
+  font-style: bold;
+  font-size: 24px;
+}
 /* formatting center in page */
 /* .container-fluid {
   margin: 35px auto;
@@ -83,40 +128,6 @@ h5 {
   border-radius: 7px;
   width: 50%;
 } */
-
-/* Hero Section */
-.hero-section {
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
-  background-image: url(../Images/02-hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
-
-/* Jumbotron */
-.myjumbo {
-  width: 70%;
-  min-width: 500px;
-  max-width: 500px;
-  max-height: min-content;
-  color: white;
-  text-align: center;
-}
-.myhero {
-  background-color: var(--primary-heading-color) !important;
-  background-image: url(../Images/myface.jpg);
-  background-size: 500px;
-  background-position: left center;
-  background-repeat: no-repeat;
-  height: calc(100vh - 25px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* About Me */
 
