@@ -2,13 +2,13 @@
 My professional portfolio for presenting built using bootstrap.
 
 
-# joe-higgs-portfolio
-This is my professional portfolio that communicates my experience, skill and expertise in Web Development for future roles and my career. 
+# joe-higgs-bootstrap-portfolio
+This is my professional portfolio that communicates my experience, skill and expertise in Web Development for future roles and my career. It was modelled on my previous portfolio but built with the aid of Bootstrap. 
 
 ## Description 
-The goal of this project is to deliver a high-quality one-page website for myself, Joe Higgs. The intention is to promote myself to potential clients and employers in order to secure employment. As I continue to grow and develop within this field, I will continue to update it and demonstrate my skills through projects that I will add to the portfolio. The priority was to ensure effective use of html and css elements to construct a page which functions as intended. By applying my skills in these fields, I have been able to fully construct the page without any functionality issues. I have also taken time to extensively comment the .html and .css files so my work is understood. 
+The goal of this project is to deliver a high-quality one-page website for myself, Joe Higgs. The intention is to promote myself to potential clients and employers in order to secure employment. As I continue to grow and develop within this field, I will continue to update it and demonstrate my skills through projects that I will add to the portfolio. The priority was to ensure effective use of bootstrap, html and css elements to construct a page which functions as intended and reflects the earlier design of my first portfolio. By applying my skills in these fields, I have been able to fully construct the page without any functionality issues. I have also taken time to extensively comment the .html and .css files so my work is understood and edited the bootstrap content to fit my design. 
 
-**https://nonebula.github.io/joe-higgs-portfolio/**
+**https://nonebula.github.io/joe-higgs-bootstrap-portfolio/**
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ The goal of this project is to deliver a high-quality one-page website for mysel
 This project is a website hosted on GitHub. To access and use the website, follow these steps:
 
 1. **Open your web browser:** Launch your preferred web browser.
-2. **Visit the project repository:** **https://github.com/nonebula/joe-higgs-portfolio**
+2. **Visit the project repository:** **https://github.com/nonebula/joe-higgs--bootstrap-portfolio**
 3. **Navigate to the website:** Click the link to the website in the readme or via the repository.
 4. **Explore the website:** Enjoy exploring and interacting with the website.
 
@@ -32,7 +32,7 @@ If you encounter any issues or have questions, please refer to the documentation
 
 To navigate to each section on the webpage, click the heading link at the top of the page. Alternatively, you can scroll through the page to read it all! The screenshot below shows the page screenshot. Should the page fail to load in the presented format, make sure to load it up on a desktop monitor. 
 
-![Website Screenshot](/assets/screenshots/scrnli_30_10_2023_16-43-30.png)
+![Website Screenshot](/assets/screenshots/...............)
 
 ## Credits
 
