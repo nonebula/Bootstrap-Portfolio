@@ -10,7 +10,7 @@
   --link-color: #31708e;
   --link-hover-color: #8fc1e3;
   --border-color: #29648a;
-  --primary-heading-font-size: 28px;
+  --primary-heading-font-size: 26px;
   --nav-bar-font-size: 22px;
   --secondary-heading-font-size: 24px;
 }
@@ -35,27 +35,27 @@ header {
   image
 }
 
-.fs-4 {
+.name {
   color: var(--base-color);
 }
 
 /* Jumbotron */
 .myjumbo {
-  width: 70%;
   min-width: 500px;
   max-width: 500px;
-  color: white;
-  text-align: center;
+  font-size: 24px;
 }
 .myhero {
-  background-image: url(../Images/jumbobg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--nav-text-color) !important;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
 }
 
 /* Heading Styles */
@@ -93,7 +93,8 @@ h5 {
   padding: 10px;
   margin: 25px;
   color: var(--base-color);
-  font-size: var(--primary-heading-font-size);
+  font-size: 18px;
+  display: inline;
   width: 20%;
   border-right: 3px solid var(--base-color);
   margin-right: 10px;
@@ -110,16 +111,12 @@ body {
 
 p {
   padding: 10px;
-  padding-top: 30px;
+  padding-top: 10px;
   margin: 10px;
   word-spacing: 1.5px;
   text-align: justify;
 }
 
-.skills {
-  font-style: bold;
-  font-size: 24px;
-}
 /* formatting center in page */
 /* .container-fluid {
   margin: 35px auto;
@@ -137,6 +134,7 @@ p {
 /* Skills */
 
 /* Projects */
+
 
 /* Contact Me */
 

@@ -29,16 +29,16 @@
       <svg class="bi me-2" width="40" height="32">
         <use xlink:href="#bootstrap"></use>
       </svg>
-      <span class="fs-4">Joe Higgs</span>
+      <span class="fs-4 name">Joe Higgs</span>
     </a>
 
     <ul class="nav nav-pills">
       <li class="nav-item">
       </li>
       <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
-      <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
       <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
-      <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
     </ul>
   </header>
 
@@ -46,17 +46,17 @@
   <div class="p-5 mb-4 bg-body-tertiary rounded-3 myhero">
     <div class="container-fluid py-5 myjumbo">
       <h1 class="display-5 fw-bold">Responsive Web Design at Your Fingertips!</h1>
-      <p class="col-md-12 fs-4">
-        List Skills Here - CSS, HTML, Wordpress, Squarespace, Javascript, React etc
+      <p class="col-md-12 fs-4 tagline">
+        Search no longer. Click below to download my resume.
       </p>
       <button class="btn btn-primary btn-lg" type="button">
-        Contact Me!
+        Download Resume
       </button>
     </div>
   </div>
 
   <!-- About Me Section -->
-  <section>
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-2 col-sm-2"><h3>About Me</h3></div>
@@ -92,21 +92,70 @@
   </section>
 
   <!-- Skills Section -->
-  <section>
+  <section id="skills">
     <div class="container">
       <div class="row">
-        <div class="col-2 col-sm-2"><h3>Skills</h3></div>
+        <div class="col-2 col-sm-2"><h3> My Skills</h3></div>
         <div class="col-10 col-sm-10">        
-          <p class="skills">
-            HTML, CSS, JavaScript, React, Angular, Wordpress, Squarespace
-          </p>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-group">
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">WordPress</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">React</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/Images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section>
+  <section id="projects">
     <div class="container">
       <div class="row">
         <div class="col-2 col-sm-2">
@@ -120,6 +169,7 @@
                   <div class="card-header">Featured</div>
                   <div class="card-body">
                     <h5 class="card-title">Project 1</h5>
+                    <img src="./assets/Images/02-portfolio-1.jpg" alt="Project 1 Image" class="card-img-top">
                     <p class="card-text">
                       With supporting text below as a natural lead-in to additional content.
                     </p>
@@ -146,6 +196,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Project 2</h5>
+              <img src="./assets/Images/02-portfolio-1.jpg" alt="Project 1 Image" class="card-img-top">
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional content.
               </p>
@@ -157,6 +208,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Project 3</h5>
+              <img src="./assets/Images/02-portfolio-1.jpg" alt="Project 1 Image" class="card-img-top">
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional content.
               </p>
@@ -172,6 +224,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Project 4</h5>
+              <img src="./assets/Images/02-portfolio-1.jpg" alt="Project 1 Image" class="card-img-top">
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional content.
               </p>
@@ -183,6 +236,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Project 5</h5>
+              <img src="./assets/Images/02-portfolio-1.jpg" alt="Project 1 Image" class="card-img-top">
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional content.
               </p>
@@ -195,7 +249,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section>
+  <section id="contact">
     <div class="container contact">
       <div class="row">
         <div class="col-2 col-sm-2"><h3>Contact Me</h3></div>
@@ -233,16 +287,16 @@
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item">
-        <a href="#" class="nav-link px-2 text-body-secondary">About Me</a>
+        <a href="#about" class="nav-link px-2 text-body-secondary">About Me</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
+        <a href="#skills" class="nav-link px-2 text-body-secondary">Skills</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link px-2 text-body-secondary">Contact Me</a>
+        <a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link px-2 text-body-secondary">Resume</a>
+        <a href="#contact" class="nav-link px-2 text-body-secondary">Contact Me</a>
       </li>
     </ul>
     <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
