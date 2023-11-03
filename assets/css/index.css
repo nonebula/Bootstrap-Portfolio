@@ -41,9 +41,50 @@
   justify-content: center;
 }
 
+.about {
 
+}
 
+/* Heading Styles */
+h1 {
+  padding: 10px;
+  color: var(--name-color);
+  font-size: var(--primary-heading-font-size);
+}
 
+h2 {
+  padding: 10px;
+  text-align: right;
+  color: var(--tagline-color);
+  font-size: var(--primary-heading-font-size);
+  background-color: var(--secondary-heading-color);
+}
+
+h3 {
+  padding: 10px;
+  margin: 25px;
+  color: var(--primary-heading-color);
+  font-size: var(--primary-heading-font-size);
+  /* width: 20%; */
+  border-right: 3px solid var(--border-color);
+  margin-right: 10px;
+}
+
+h4 {
+  color: var(--secondary-heading-color);
+  font-size: var(--secondary-heading-font-size);
+  margin: 10px;
+}
+
+h5 {
+  padding: 10px;
+  margin: 25px;
+  color: var(--base-color);
+  font-size: var(--primary-heading-font-size);
+  width: 20%;
+  border-right: 3px solid var(--base-color);
+  margin-right: 10px;
+}
 
 
 footer {
