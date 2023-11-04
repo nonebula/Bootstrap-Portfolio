@@ -16,11 +16,6 @@
   --secondary-heading-font-size: 24px;
 }
 
-* {
-  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
-  sans-serif;
-}
-
 /* Header & Navbar */
 header {
   padding: 20px;
@@ -68,7 +63,7 @@ header {
 }
 
 .jumboButton {
-  background-color: var(--border-color);
+  background-color: var(--primary-heading-color);
 }
 
 .tagline {
@@ -130,6 +125,24 @@ h5 {
   margin-right: 10px;
 }
 
+/* Section Formatting */
+
+#about {
+  padding-bottom: 50px;
+}
+
+#skills {
+  padding-bottom: 100px;
+}
+
+#projects {
+  padding-bottom: 100px;
+}
+
+#contact {
+  padding-bottom: 50px;
+}
+
 /* Main Body Text Formatting */
 body {
   background-color: var(--base-color);
@@ -158,6 +171,7 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 /* Projects */
 
 .projectTitle {
@@ -170,7 +184,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--border-color);
+  background-color: var(--primary-border-color);
 }
 
 /* Contact Me */
