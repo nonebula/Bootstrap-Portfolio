@@ -15,6 +15,10 @@
   --secondary-heading-font-size: 24px;
 }
 
+* {
+  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
+  sans-serif;
+}
 /* Header & Navbar */
 header {
   padding: 20px;
@@ -169,7 +173,6 @@ p {
 
 /* Contact Me */
 .contactItem {
-  padding: 10px;
   margin: 10px;
   font-size: 20px;
   word-spacing: 1.5px;
@@ -198,24 +201,15 @@ p {
 
 /* Footer Section */
 
-/* Other links need to format similar to download resume link */
-
-footer {
+.footer {
     background-color: var(--primary-heading-color);
+    position: absolute;
     text-align: center;
     display: inline;
     align-items: center;
+    width: 100%;
     margin-top: 20px;
 }
-
-/* header copied
-  padding: 20px;
-  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
-  background-color: var(--primary-heading-color);
-  color: var(--primary-heading-color);
-  display: flex;
-} */
 
 .footer a {
   color: var(--nav-text-color);
@@ -228,77 +222,26 @@ footer {
 }
 
 
-.footList ul {
+.footer ul {
   display: flex;
   list-style: none;
   font-size: var(--nav-bar-font-size);
 }
 
-.footList a {
+.footer a {
   text-decoration: none;
   color: var(--nav-text-color);
   transition: color 0.5s;
 }
 
-.footList a:hover {
+.footer a:hover {
   color: var(--link-color);
 }
 
-/* align-items: center;
-justify-content: center;
-display: inline; */
-
-/* footer { */
-  /* position: absolute; */
-  /* width: 100%;
-  height: 150px;
-  line-height: 60px;
-  background-color: var(--primary-heading-color);
-  list-style: none;
-  padding: 20px;
-  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
-  display: flex;
+.resume {
+  padding-top: 8px;
 }
 
-.contactItem ul {
-  display: flex;
-  list-style: none;
-  font-size: var(--nav-bar-font-size);
+.copyright {
+  color: #fff !important;
 }
-
-.footList {
-} */
-
-/* .footList ul {
-  display: flex;
-  list-style: none;
-  font-size: var(--nav-bar-font-size);
-}
-
-.footList a {
-  text-decoration: none;
-  color: var(--nav-text-color);
-  transition: color 0.5s;
-}
-
-.footList a:hover {
-  color: var(--link-color);
-} */
-
-/* * = universal selector */
-/* floated right
-margin-left: auto;
-  margin-right: 0; */
-
-/* overrule other styling
-  !important */
-
-/* .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-  }
-  
-  .btn-primary {
-    background-color: red;
-  } */
