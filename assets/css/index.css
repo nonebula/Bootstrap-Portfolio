@@ -107,6 +107,7 @@ h5 {
   display: inline;
   width: 20%;
   border-right: 3px solid var(--base-color);
+  font-weight: bold;
   margin-right: 10px;
 }
 
@@ -135,8 +136,27 @@ p {
 /* Button formatting (color change) */
 
 /* Skills */
+.logo{
+  max-height: fit-content;
+  max-width: fit-content;
+}
 
+.skillsCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Projects */
+
+.projectTitle {
+  color:var(--secondary-heading-color);
+  font-size: var(--secondary-heading-font-size);
+  padding: 25px;
+}
+
+.primaryPic {
+  max-height: 300px;
+}  
 
 /* Contact Me */
 /* background color needs setting, header & border color change, icon color */
