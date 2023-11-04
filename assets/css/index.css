@@ -140,10 +140,6 @@ p {
 
 /* About Me */
 
-.about {
-}
-
-/* Button formatting (color change) */
 
 /* Skills */
 .logo{
@@ -172,7 +168,6 @@ p {
 }
 
 /* Contact Me */
-/* background color needs setting, header & border color change, icon color */
 .contactItem {
   padding: 10px;
   margin: 10px;
@@ -208,10 +203,19 @@ p {
 footer {
     background-color: var(--primary-heading-color);
     text-align: center;
-    display: flex;
+    display: inline;
     align-items: center;
     margin-top: 20px;
 }
+
+/* header copied
+  padding: 20px;
+  font-family: "Open Sans", "Roboto Slab", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  background-color: var(--primary-heading-color);
+  color: var(--primary-heading-color);
+  display: flex;
+} */
 
 .footer a {
   color: var(--nav-text-color);
@@ -223,6 +227,22 @@ footer {
   color: var(--nav-text-color); 
 }
 
+
+.footList ul {
+  display: flex;
+  list-style: none;
+  font-size: var(--nav-bar-font-size);
+}
+
+.footList a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+  transition: color 0.5s;
+}
+
+.footList a:hover {
+  color: var(--link-color);
+}
 
 /* align-items: center;
 justify-content: center;
