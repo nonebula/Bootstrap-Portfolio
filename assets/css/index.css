@@ -61,6 +61,10 @@ header {
   text-align: center;
 }
 
+.jumboButton {
+  background-color: var(--border-color);
+}
+
 .tagline {
   text-align: center;
 }
@@ -154,9 +158,12 @@ p {
   padding: 25px;
 }
 
-.primaryPic {
-  max-height: 300px;
-}  
+.projectButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--border-color);
+}
 
 /* Contact Me */
 /* background color needs setting, header & border color change, icon color */
