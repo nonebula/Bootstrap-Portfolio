@@ -38,7 +38,17 @@ To navigate to each section on the webpage, click the heading link at the top of
 
 The project was completed independently but built off the source code from: edX Boot Camps LLC. I worked with my tutor, Mila Hose, to identify issues and to format my code effectively. We also discussed how effective use of flexboxes has made my work more efficient.
 
-In producing this webpage, I utilized a range of tutorials from W3 Schools and referred to several posts on Stack Overflow.
+In producing this webpage, I utilized a range of tutorials from W3 Schools and referred to several posts on Stack Overflow. I referred to my previous page build to match the formatting and styles. I also utilised the following resources to support me:
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
+
+- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
+
+- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+- [Github Pages Guide](https://pages.github.com/)
 
 ## License
 
