@@ -2,13 +2,13 @@
 My professional portfolio for presenting built using bootstrap.
 
 
-# joe-higgs-bootstrap-portfolio
+# Bootstrap-Portfolio
 This is my professional portfolio that communicates my experience, skill and expertise in Web Development for future roles and my career. It was modelled on my previous portfolio but built with the aid of Bootstrap. 
 
 ## Description 
 The goal of this project is to deliver a high-quality one-page website for myself, Joe Higgs. The intention is to promote myself to potential clients and employers in order to secure employment. As I continue to grow and develop within this field, I will continue to update it and demonstrate my skills through projects that I will add to the portfolio. The priority was to ensure effective use of bootstrap, html and css elements to construct a page which functions as intended and reflects the earlier design of my first portfolio. By applying my skills in these fields, I have been able to fully construct the page without any functionality issues. I have also taken time to extensively comment the .html and .css files so my work is understood and edited the bootstrap content to fit my design. 
 
-**https://nonebula.github.io/bootstrap-portfolio/**
+**https://nonebula.github.io/Bootstrap-Portfolio/**
 
 ## Table of Contents
 
