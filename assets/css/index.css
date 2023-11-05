@@ -139,6 +139,10 @@ h5 {
   padding-bottom: 100px;
 }
 
+#projects2 {
+  padding-bottom: 100px;
+}
+
 #contact {
   padding-bottom: 50px;
 }
@@ -161,7 +165,7 @@ p {
 }
 
 /* Skills */
-.logo{
+.logo {
   max-height: fit-content;
   max-width: fit-content;
 }
@@ -175,7 +179,7 @@ p {
 /* Projects */
 
 .projectTitle {
-  color:var(--secondary-heading-color);
+  color: var(--secondary-heading-color);
   font-size: var(--secondary-heading-font-size);
   padding: 25px;
 }
@@ -218,13 +222,13 @@ p {
 /* Footer Section */
 
 .footer {
-    background-color: var(--primary-heading-color);
-    position: absolute;
-    text-align: center;
-    display: inline;
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
+  background-color: var(--primary-heading-color);
+  position: absolute;
+  text-align: center;
+  display: inline;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .footer a {
@@ -234,9 +238,8 @@ p {
 }
 
 .footer p {
-  color: var(--nav-text-color); 
+  color: var(--nav-text-color);
 }
-
 
 .footer ul {
   display: flex;
