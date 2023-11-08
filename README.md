@@ -32,6 +32,8 @@ If you encounter any issues or have questions, please refer to the documentation
 
 To navigate to each section on the webpage, click the heading link at the top of the page. Alternatively, you can scroll through the page to read it all! The screenshot below shows the page screenshot. Should the page fail to load in the presented format, make sure to load it up on a desktop monitor. 
 
+![Website Screenshot](./assets/Images/portfolio-screenshot.png)
+
 ![Website Screen Record](https://watch.screencastify.com/v/yuilrqtS46DOlRSIvWfa)
 
 ## Credits
